@@ -1,0 +1,8 @@
+body,html{margin: 0;padding:0;-webkit-user-select: none;}
+.section{width:1000px;height:500px;border:1px solid black;margin: 10px auto;position:relative;box-shadow: 2px 2px 5px #000000,-2px -2px 5px #000000;border-radius: 5px;}
+
+#smallSence{width:400px;height:249px;border:1px solid black;margin: 100px;position:relative;font-size: 0;overflow: hidden;}
+#smallSence img{display: block;width:100%;}
+#zoom{width:160px;height:100px;background: rgba(0,0,0,0.4);position:absolute;top: 0;left:0;cursor: pointer;display: none;}
+#bigSence{width:400px;height:255px;position:absolute;top: 100px;left:560px;/*border:1px solid black;*/overflow: hidden;display: none;}
+#bigSence img{width:1000px;position: absolute;z-index: 3;}

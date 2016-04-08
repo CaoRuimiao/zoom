@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>放大镜</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <!--去除图片与div下边框的边距bug
+        法一：给div添加font-size:0;
+        法二：给img添加display:block;
+        法三：给img添加vertical-align:top/bottom/middle;
+    -->
+    <div class="section">
+        <div id="smallSence">
+            <div id="zoom"></div>
+            <img src="images/small.jpg" alt="">
+        </div>
+        <div id="bigSence">
+            <img src="images/big.jpg" alt="">
+        </div>
+    </div>
+
+
+</body>
+</html>
